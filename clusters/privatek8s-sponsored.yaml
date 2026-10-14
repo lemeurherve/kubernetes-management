@@ -94,7 +94,7 @@ releases:
   - name: release-ci-jenkins-io
     namespace: release-ci-jenkins-io
     chart: jenkins/jenkins
-    version: 5.9.67
+    version: 5.9.68
     timeout: 600
     needs:
       # Required to expose the webhooks endpoint (secondary ingress of the jenkins helm chart)
