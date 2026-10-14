@@ -182,7 +182,7 @@ releases:
   - name: get-jenkins-io-content
     namespace: get-jenkins-io
     chart: jenkins-infra/mirrorbits
-    version: 5.12.1
+    version: 5.12.2
     values:
       - ../config/publick8s-sponsored/get-jenkins-io-content.yaml
     secrets:
