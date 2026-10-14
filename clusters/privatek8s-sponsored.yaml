@@ -73,7 +73,7 @@ releases:
   - name: infra-ci-jenkins-io
     namespace: infra-ci-jenkins-io
     chart: jenkins/jenkins
-    version: 5.9.67
+    version: 5.9.68
     needs:
       # Required to generate the job definition in a configmap
       - infra-ci-jenkins-io-jobs
