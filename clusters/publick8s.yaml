@@ -269,7 +269,7 @@ releases:
   - name: redis
     namespace: redis
     chart: dandydev/redis-ha
-    version: 4.34.13
+    version: 4.39.0
     values:
       - ../config/publick8s/redis.yaml
     secrets:
